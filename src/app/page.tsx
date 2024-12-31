@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Facebook, Instagram, Youtube,Linkedin } from 'lucide-react'
+import { Facebook, Instagram,Linkedin } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { auth } from '@/lib/firebase'
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
@@ -21,7 +21,7 @@ export default function LaunchCountdown() {
     
     return { days, hours, minutes, seconds };
   });
-  const [isRegistered, setIsRegistered] = useState(false)
+  // const [isRegistered, setIsRegistered] = useState(false)
   const router = useRouter()
 
   useEffect(() => {
