@@ -188,7 +188,7 @@ export default function LaunchCountdown() {
                 <a href="https://www.instagram.com/re_verse.in/" className="hover:text-white transition-colors">
                   <Instagram className="w-6 h-6" />
                 </a>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="https://www.facebook.com/share/19rbrmAU7k/?mibextid=wwXIfr" className="hover:text-white transition-colors">
                   <Facebook className="w-6 h-6" />
                 </a>
                 <a href="#" className="hover:text-white transition-colors">
