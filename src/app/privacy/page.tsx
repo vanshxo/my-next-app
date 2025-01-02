@@ -49,7 +49,6 @@ export default function PrivacyNotice() {
             </h3>
             <p>
               At <b>Reverse Green Clothing Private Limited</b> (Re-verse), we collect personal data related to your identity, demographics, and interactions with us when you use our platform, services, or engage with us during the course of our relationship. This data may include information provided during sign-up or registration, such as your name, date of birth, address, phone or mobile number, email ID, and any identity or address proof you share. In certain cases, we may collect sensitive personal data, such as your payment details (bank account, credit or debit card information) or biometric information (like facial features), with your explicit consent and in compliance with applicable laws.  We may also collect information about your shopping behavior, preferences, browsing history, call data records, device location, and voice inputs to enhance your shopping experience. Additionally, we gather technical data, such as URLs you visited before or after accessing our platform, browser type, IP address, and other system-generated details. If you participate in our loyalty program or third-party loyalty programs, we collect and store data such as your name, contact details, date of birth, gender, lifestyle information, demographic details, and information about your transactions on our platform or third-party platforms.
-              {/* ... (rest of the content for this section) ... */}
             </p>
   
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -57,7 +56,6 @@ export default function PrivacyNotice() {
             </h3>
             <p>
               We are committed to protecting your personal data from unauthorized access, disclosure, loss, or misuse. To achieve this, we implement reasonable security practices and procedures in line with international standards, including ISO/IEC 27001:2013, which is recognized as one of the highest standards for information security. Whenever you access your account information on our platform, we ensure the use of a secure server to safeguard your data.
-              {/* ... (rest of the content for this section) ... */}
             </p>
   
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -79,7 +77,6 @@ export default function PrivacyNotice() {
             </h3>
             <p>
               You have the option to delete your account by accessing your Profile and Settings on the mobile application. This action will result in the loss of all information related to your account, including order history, preferences, pending orders, exchanges, returns, refunds, coupons, and loyalty program benefits. Alternatively, you can contact us using the information provided below for assistance with account deletion.
-              {/* ... (rest of the content for this section) ... */}
             </p>
   
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -87,7 +84,6 @@ export default function PrivacyNotice() {
             </h3>
             <p>
               We take all reasonable steps to ensure that the personal data we process is accurate and, where necessary, kept up to date. If any personal data we process is found to be inaccurate with respect to the purposes for which it is processed, it will either be rectified or erased. You can access, update, and rectify your personal data directly through the functionalities provided on our platform.
-              {/* ... (rest of the content for this section) ... */}
             </p>
   
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -95,7 +91,6 @@ export default function PrivacyNotice() {
             </h3>
             <p>
               By visiting the platform of <strong>Reverse Green Clothing Private Limited</strong> ("Re-verse") or providing your information, you consent to the collection, use, storage, disclosure, and processing of your information in accordance with this Privacy Policy. If you provide us with personal data relating to others, you represent that you have the authority to do so and permit us to use that information as outlined in this Privacy Policy.
-              {/* ... (rest of the content for this section) ... */}
             </p>
   
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -104,8 +99,6 @@ export default function PrivacyNotice() {
             <p>
               Please check our Privacy Policy periodically for changes. We may update this Privacy Policy to reflect changes to our information practices. We will alert you to significant changes by posting the date our Privacy Policy got last updated, placing a notice on our Platform, or by sending you an email when we are required to do so by applicable law.
             </p>
-  
-          
   
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
               9. Queries
@@ -118,3 +111,4 @@ export default function PrivacyNotice() {
       </main>
     );
   }
+  

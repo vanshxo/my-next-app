@@ -16,14 +16,14 @@ export default function TermsAndConditions() {
   
           <div className="space-y-6 text-base md:text-lg leading-relaxed text-justify">
             <p>
-              Welcome to Reverse Green Clothing Private Limited ("Re-Verse"). By accessing or using our platform at <a href="https://www.re-verse.in" className="text-[#65a30d] hover:underline">www.re-verse.in</a>, you agree to comply with the following Terms and Conditions. If you do not agree with these terms, please refrain from using our platform.
+              Welcome to Reverse Green Clothing Private Limited (&quot;Re-Verse&quot;). By accessing or using our platform at <a href="https://www.re-verse.in" className="text-[#65a30d] hover:underline">www.re-verse.in</a>, you agree to comply with the following Terms and Conditions. If you do not agree with these terms, please refrain from using our platform.
             </p>
   
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
               1. Acceptance of Terms
             </h3>
             <p>
-              These Terms and Conditions ("Terms") govern your access to and use of the platform, services, and any content or information provided by Re-Verse. By accessing or using our platform, you acknowledge that you have read, understood, and agree to these Terms. 
+              These Terms and Conditions (&quot;Terms&quot;) govern your access to and use of the platform, services, and any content or information provided by Re-Verse. By accessing or using our platform, you acknowledge that you have read, understood, and agree to these Terms.
             </p>
   
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -75,7 +75,7 @@ export default function TermsAndConditions() {
               Re-Verse reserves the right to suspend or terminate your access to the platform at any time, without notice, for conduct that violates these Terms or for any other reason at its sole discretion.
             </p>
   
-            <h3 className="text-xl md:text-2xl lg:text-3x1 font-bold mb-4">
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
               9. Limitation of Liability
             </h3>
             <p>
@@ -107,3 +107,4 @@ export default function TermsAndConditions() {
       </main>
     );
   }
+  
