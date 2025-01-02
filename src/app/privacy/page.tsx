@@ -16,7 +16,7 @@ export default function PrivacyNotice() {
   
           <div className="space-y-6 text-base md:text-lg leading-relaxed text-justify">
             <p>
-              We at Reverse Green Clothing Private Limited value the trust you place in us and are committed to ensuring secure transactions and protecting your personal information. This Privacy Policy outlines how Reverse Green Clothing Private Limited and its affiliates (collectively referred to as "Re-verse," "we," "our," or "us") collect, use, share, protect, or otherwise process your personal data through our website <a
+              We at Reverse Green Clothing Private Limited value the trust you place in us and are committed to ensuring secure transactions and protecting your personal information. This Privacy Policy outlines how Reverse Green Clothing Private Limited and its affiliates (collectively referred to as &quot;Re-verse&quot;, &quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) collect, use, share, protect, or otherwise process your personal data through our website <a
                 href="https://www.re-verse.in"
                 className="text-[#65a30d] hover:underline"
               >
@@ -90,7 +90,7 @@ export default function PrivacyNotice() {
               7. Consent
             </h3>
             <p>
-              By visiting the platform of <strong>Reverse Green Clothing Private Limited</strong> ("Re-verse") or providing your information, you consent to the collection, use, storage, disclosure, and processing of your information in accordance with this Privacy Policy. If you provide us with personal data relating to others, you represent that you have the authority to do so and permit us to use that information as outlined in this Privacy Policy.
+              By visiting the platform of <strong>Reverse Green Clothing Private Limited</strong> (&quot;Re-verse&quot;) or providing your information, you consent to the collection, use, storage, disclosure, and processing of your information in accordance with this Privacy Policy. If you provide us with personal data relating to others, you represent that you have the authority to do so and permit us to use that information as outlined in this Privacy Policy.
             </p>
   
             <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4">
@@ -111,4 +111,3 @@ export default function PrivacyNotice() {
       </main>
     );
   }
-  
