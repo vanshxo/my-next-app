@@ -7,7 +7,7 @@ import { auth } from '@/lib/firebase'
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
 import { useRouter } from 'next/navigation'
 import { motion } from "framer-motion"
-
+import Link from 'next/link'
 export default function LaunchCountdown() {
   const [timeLeft, setTimeLeft] = useState(() => {
     const targetDate = new Date('2025-01-26T00:00:00');
@@ -191,9 +191,24 @@ export default function LaunchCountdown() {
                 <a href="https://www.facebook.com/share/19rbrmAU7k/?mibextid=wwXIfr" className="hover:text-white transition-colors">
                   <Facebook className="w-6 h-6" />
                 </a>
-                <a href="#" className="hover:text-white transition-colors">
+                <a href="https://www.linkedin.com/company/reverse-in/" className="hover:text-white transition-colors">
                   <Linkedin className="w-6 h-6" />
                 </a>
+              </motion.div>
+              <motion.div 
+                initial={{ y: 20, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 0.8, duration: 0.5 }}
+                className="mt-8 text-center"
+              >
+                             <div className="flex justify-center space-x-4">
+                  <Link href="/terms" className="text-sm text-gray-400 hover:text-white transition-colors">
+                    Terms and Conditions
+                  </Link>
+                  <Link href="/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">
+                    Privacy Policy
+                  </Link>
+                </div>
               </motion.div>
             </div>
           </div>

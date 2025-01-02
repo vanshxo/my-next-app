@@ -12,7 +12,7 @@ export default function SuccessPage() {
   useEffect(() => {
     const timer = setTimeout(() => {
       router.push('/')
-    }, 3000)
+    }, 5000)
 
     return () => clearInterval(timer)
   }, [router])
@@ -41,9 +41,9 @@ export default function SuccessPage() {
           <p className="text-gray-600 mb-2">Thanks for pre-registering with RE-VERSE.</p>
           <p className="text-gray-600 mb-8">Redirecting you back in 3 seconds...</p>
           <Link href="/">
-            <Button className="bg-emerald-600 hover:bg-emerald-700 text-white w-full mb-6 transition-colors">
+            {/* <Button className="bg-emerald-600 hover:bg-emerald-700 text-white w-full mb-6 transition-colors">
               Go to Main Page
-            </Button>
+            </Button> */}
           </Link>
         </motion.div>
       </motion.div>
