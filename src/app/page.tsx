@@ -208,6 +208,12 @@ export default function LaunchCountdown() {
                   <Link href="/privacy" className="text-sm text-gray-400 hover:text-white transition-colors">
                     Privacy Policy
                   </Link>
+                  <Link href="/returns_and_exchange" className="text-sm text-gray-400 hover:text-white transition-colors">
+                  Returns and Exchange
+                  </Link>
+                  <Link href="/shipping" className="text-sm text-gray-400 hover:text-white transition-colors">
+                  Shipping and Delivery
+                  </Link>
                 </div>
               </motion.div>
             </div>
