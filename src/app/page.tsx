@@ -214,6 +214,9 @@ export default function LaunchCountdown() {
                   <Link href="/shipping" className="text-sm text-gray-400 hover:text-white transition-colors">
                   Shipping and Delivery
                   </Link>
+                  <Link href="/contact-us" className="text-sm text-gray-400 hover:text-white transition-colors">
+                  contact-us
+                  </Link>
                 </div>
               </motion.div>
             </div>
