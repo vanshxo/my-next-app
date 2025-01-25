@@ -10,7 +10,7 @@ import { motion } from "framer-motion"
 import Link from 'next/link'
 export default function LaunchCountdown() {
   const [timeLeft, setTimeLeft] = useState(() => {
-    const targetDate = new Date('2025-01-26T00:00:00');
+    const targetDate = new Date('2025-01-27T10:00:00');
     const now = new Date();
     const difference = targetDate.getTime() - now.getTime();
     
@@ -26,7 +26,7 @@ export default function LaunchCountdown() {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      const targetDate = new Date('2025-01-26T00:00:00');
+      const targetDate = new Date('2025-01-27T10:00:00');
       const now = new Date();
       const difference = targetDate.getTime() - now.getTime();
       
