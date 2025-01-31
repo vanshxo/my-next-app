@@ -1,13 +1,9 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Facebook, Instagram,Linkedin } from 'lucide-react'
-import { Button } from "@/components/ui/button"
-import { auth } from '@/lib/firebase'
-import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
 import { useRouter } from 'next/navigation'
 import { motion } from "framer-motion"
-import Link from 'next/link'
+
 export default function LaunchCountdown() {
   const [timeLeft, setTimeLeft] = useState(() => {
     const targetDate = new Date('2025-03-01T10:00:00');
@@ -57,19 +53,19 @@ export default function LaunchCountdown() {
   //   return () => unsubscribe()
   // }, [router])
 
-  const handlePreRegister = async () => {
-    try {
-      const provider = new GoogleAuthProvider()
-      await signInWithPopup(auth, provider)
-      auth.onAuthStateChanged((user) => {
-        if (user) {
-          router.push('/success')
-        }
-      });
-    } catch (error) {
-      console.error('Error during pre-registration:', error)
-    }
-  }
+  // const handlePreRegister = async () => {
+  //   try {
+  //     const provider = new GoogleAuthProvider()
+  //     await signInWithPopup(auth, provider)
+  //     auth.onAuthStateChanged((user) => {
+  //       if (user) {
+  //         router.push('/success')
+  //       }
+  //     });
+  //   } catch (error) {
+  //     console.error('Error during pre-registration:', error)
+  //   }
+  // }
 
   return (
     <div className="min-h-screen">
