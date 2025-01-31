@@ -10,7 +10,7 @@ import { motion } from "framer-motion"
 import Link from 'next/link'
 export default function LaunchCountdown() {
   const [timeLeft, setTimeLeft] = useState(() => {
-    const targetDate = new Date('2025-01-27T10:00:00');
+    const targetDate = new Date('2025-03-01T10:00:00');
     const now = new Date();
     const difference = targetDate.getTime() - now.getTime();
     
@@ -26,7 +26,7 @@ export default function LaunchCountdown() {
 
   useEffect(() => {
     const timer = setInterval(() => {
-      const targetDate = new Date('2025-01-27T10:00:00');
+      const targetDate = new Date('2025-03-01T10:00:00');
       const now = new Date();
       const difference = targetDate.getTime() - now.getTime();
       
@@ -73,7 +73,7 @@ export default function LaunchCountdown() {
 
   return (
     <div className="min-h-screen">
-      <div className="fixed inset-0 bg-[url('/img.jpg')] bg-cover bg-center bg-no-repeat before:content-[''] before:absolute before:inset-0 before:bg-black/60" />
+      <div className="fixed inset-0 bg-black bg-cover bg-center bg-no-repeat before:content-[''] before:absolute before:inset-0 before:bg-black/60" />
       <div className="relative z-10 min-h-screen">
         <div className="max-w-6xl mx-auto px-4 py-6">
           {/* Navigation */}
@@ -101,14 +101,14 @@ export default function LaunchCountdown() {
                 <div className="absolute right-0 top-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl animate-pulse" />
                 <div className="absolute left-0 bottom-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl animate-pulse" />
                 <img 
-                  src="/logo.png" 
+                  src="/logo2.png" 
                   alt="Rocket illustration" 
                   className="relative z-10"
                   width={350}
                   height={350}
                 
                 />
-                <div className='absolute right-14 top-60 w-100 h-100 text-6xl'>RE-VERSE</div>
+                {/* <div className='absolute right-14 top-60 w-100 h-100 text-6xl'>RE-VERSE</div> */}
               </div>
             </motion.div>
 
@@ -125,9 +125,11 @@ export default function LaunchCountdown() {
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.3, duration: 0.5 }}
-                className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-white to-emerald-300 bg-clip-text text-transparent"
+                className="text-4xl md:text-xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent"
               >
-                Going Live in..
+                Resume Genie is a one stop resume building and management system it analyzes your resume using advanced AI and provides real-time feedback 
+                to help you improve your chances of passing ATS filters coming to you in...
+                
               </motion.h1>
 
               {/* Countdown Timer */}
@@ -150,7 +152,7 @@ export default function LaunchCountdown() {
                     transition={{ delay: 0.5 + index * 0.1, duration: 0.5 }}
                     className="relative"
                   >
-                    <div className="bg-emerald-800/50 backdrop-blur-sm rounded-lg p-4 border border-emerald-700">
+                    <div className="bg-white-800/50 backdrop-blur-sm rounded-lg p-4 border border-gray-700">
                       <div className="text-4xl md:text-5xl font-bold mb-2">
                         {String(value).padStart(2, '0')}
                       </div>
@@ -161,7 +163,7 @@ export default function LaunchCountdown() {
               </motion.div>
 
               {/* Pre-register Section */}
-              <motion.div 
+              {/* <motion.div 
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.6, duration: 0.5 }}
@@ -176,10 +178,10 @@ export default function LaunchCountdown() {
                 >
                   PRE-REGISTER
                 </Button>
-              </motion.div>
+              </motion.div> */}
 
               {/* Social Links */}
-              <motion.div 
+              {/* <motion.div 
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.7, duration: 0.5 }}
@@ -218,7 +220,7 @@ export default function LaunchCountdown() {
                   contact-us
                   </Link>
                 </div>
-              </motion.div>
+              </motion.div> */}
             </div>
           </div>
         </div>
