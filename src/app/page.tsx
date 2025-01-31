@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+
 import { motion } from "framer-motion"
 
 export default function LaunchCountdown() {
@@ -18,7 +18,7 @@ export default function LaunchCountdown() {
     return { days, hours, minutes, seconds };
   });
   // const [isRegistered, setIsRegistered] = useState(false)
-  const router = useRouter()
+ 
 
   useEffect(() => {
     const timer = setInterval(() => {
