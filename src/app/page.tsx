@@ -94,8 +94,8 @@ export default function LaunchCountdown() {
               className="mb-12"
             >
               <div className="relative w-90 h-90">
-                <div className="absolute right-0 top-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl animate-pulse" />
-                <div className="absolute left-0 bottom-0 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl animate-pulse" />
+                <div className="absolute right-0 top-0 w-64 h-64 bg-emerald-800 rounded-full blur-3xl animate-pulse" />
+                <div className="absolute left-0 bottom-0 w-64 h-64 bg-emerald-800 rounded-full blur-3xl animate-pulse" />
                 <img 
                   src="/logo2.png" 
                   alt="Rocket illustration" 
